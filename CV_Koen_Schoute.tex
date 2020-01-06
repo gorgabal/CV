@@ -1,35 +1,15 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
-
 \documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
-% moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{black}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
-% character encoding
-%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
-
-% adjust the page margins
 \usepackage[scale=0.75]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \name{Koen}{Schoute}
 \title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
 \address{Erich Salamonstraat 143A}{1087AV}{Amsterdam}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 \phone[mobile]{+316~2250~3051}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
-%\phone[fixed]{+2~(345)~678~901}
-%\phone[fax]{+3~(456)~789~012}
 \email{koen@gorgabal.nl}                               % optional, remove / comment the line if not wanted
 \homepage{www.gorgabal.nl}                         % optional, remove / comment the line if not wanted
 \social[linkedin]{koenschoute}                        % optional, remove / comment the line if not wanted
@@ -39,21 +19,7 @@
 \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 \quote{Software Developer and Linux Enthusiast}                                 % optional, remove / comment the line if not wanted
 
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
-
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-%-----       resume       ---------------------------------------------------------
 \makecvtitle
 
 \section{Education}
@@ -67,35 +33,28 @@
 %\cvitem{supervisors}{Supervisors}
 %\cvitem{description}{Short thesis abstract}
 
-
 \section{Experience}
-
-\cventry{December 2017--present}{Software Developer}{EY}{Amsterdam}{}{
+\cventry{september 2019--february 2020}{Full Stack Developer}{Kroot}{Utrecht}{}{
+	VUE.js webapplication development in a startup. 	 
+}
+\cventry{December 2017--August 2019}{Software Developer}{EY}{Amsterdam}{}{
 	ASP.net web development\newline
-	Gained experience as an professional consultant in an corperate culture.}
-%\cventry{July 2016--March 2017}{Embedded Software Developer}{SocialChicken}{Amsterdam}{}{ Internet of Things Development, created an coolbox with control switches and sensor readouts over the internet. \newline}
+	Gained experience as a professional consultant in an corperate culture.}
+\cventry{July 2016--March 2017}{Embedded Software Developer}{SocialChicken}{Amsterdam}{}{ Created costum 'Internet of Things' Devices for small company's \newline}
 \cventry{November 2015--February 2016}{Internship Software Developer}{Fairphone}{Amsterdam}{}{Created an android application that visualizes permission used by other applications over time. This way, helping the end user determine wether an application is abusing some permissions and invading the users privacy. \newline}
 % \cventry{2015--2015}{Project}{NIKHEF}{Amsterdam science park}{}{Study project, deployment investigation of elasticsearch for logdata of the LHC's grid network\newline}
 % \cventry{2015--2015}{Project}{info.nl}{Amsterdam}{}{Study project involving android Development for info.nl\newline}
 \cventry{February 2014--June 2014}{Internship Software Developer}{Heemskerk Innovative Technology}{Nieuwegein}{}{Internship, investigation of intergration ROS (linux based real time middelware), haptic robot controller with windows-based robot simulation. The purpose was to be able to seamlesly switch between controlling an simulation or controlling an actual robot. \newline}
 \cventry{2012 and before}{Temporary work}{Olympia work agency}{Amsterdam}{}{Several low-level temporary manual labor jobs \newline}
 
-
 \section{Languages}
 \cvitemwithcomment{Dutch}{Fluent}{}
 \cvitemwithcomment{English}{Professional}{}
-%\cvitemwithcomment{Language 3}{Skill level}{Comment}
 
 \section{Computer skills}
-\cvitem{Software Development}{C/C++, JAVA, CSharp, ASP.NET, bash, git, Android}
+\cvitem{Software Development}{C/C++, JAVA, CSharp, ASP.NET, webdevelopment, VUE.js}
 \cvitem {Operating Systems}{Linux (user since 2008), Windows and OSX}
 \cvitem{Office}{Word processing, Spreadsheets, LaTeX, markdown }
-
-%\section{Miscellaneous skills}
-%\cvdoubleitem{Management}{Agile/Scrum}{}{}
-
-%\section{Achievements}
-%\cvitem{dummytekst}{dummytexst}
 
 \section{Interests}
 \cvitem{Open Source}{I am a big fan of open source software}
@@ -107,66 +66,6 @@
 \section{Voluntory work}
 \cvitem{2013--2014}{Wordpress Website maintenance for student club particolarte}
 \cvitem{2017}{Wordpress Website maintenance Beelease.nl}
-%\cvlistitem{Item 2}
-%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
-
-%\section{Extra 2}
-%\cvlistdoubleitem{Item 1}{Item 4}
-%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
-
-%\section{References}
-
-%This section will contain references in the near future. 
-
-%\begin{cvcolumns}
-%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
-%\end{cvcolumns}
-
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
 
 \clearpage
-%-----       letter       ---------------------------------------------------------
-% recipient data
-
-
-%\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-%\date{January 01, 1984}
-%\opening{Dear Sir or Madam,}
-%\closing{Yours faithfully,}
-%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-%\makelettertitle
-%
-%Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
-
-%Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
-
-%Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
-
-%Albert Einstein discovered that $e=mc^2$ in 1905.
-
-%\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
-
-%\makeletterclosing
-
-%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
-
-
-%% end of file `template.tex'.
