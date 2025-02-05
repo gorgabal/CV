@@ -1,5 +1,7 @@
-CV_Koen_Schoute.pdf : CV_Koen_Schoute.tex
-	pdflatex CV_Koen_Schoute.tex
+# using the overleaf.com editor nowadays. latex stack to cumbersome to maintain locally. 
 
-clean :
-	rm -f *.aux *.log *.out
+#CV_Koen_Schoute.pdf : CV_Koen_Schoute.tex
+#	pdflatex CV_Koen_Schoute.tex
+#
+#clean :
+#	rm -f *.aux *.log *.out
