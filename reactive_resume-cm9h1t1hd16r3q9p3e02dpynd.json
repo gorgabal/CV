@@ -1,0 +1,524 @@
+{
+  "basics": {
+    "name": "Koen Schoute",
+    "headline": "Software Development",
+    "email": "koen@schouteict.nl",
+    "phone": "+31622503051",
+    "location": "Amsterdam, North Holland, Netherlands",
+    "url": {
+      "label": "",
+      "href": "https://schouteict.nl"
+    },
+    "customFields": [],
+    "picture": {
+      "url": "https://storage.rxresu.me/cm9h1aryh16oyq9p30gcpn8l6/pictures/ugqcxucgauyaenog9shtdvbv.jpg",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "metadata": {
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "notes": "",
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#059669"
+    },
+    "layout": [
+      [
+        [
+          "summary",
+          "projects",
+          "experience",
+          "education",
+          "volunteer",
+          "references"
+        ],
+        [
+          "profiles",
+          "skills",
+          "languages",
+          "certifications",
+          "awards",
+          "publications",
+          "interests"
+        ]
+      ]
+    ],
+    "template": "pikachu",
+    "typography": {
+      "font": {
+        "family": "Lora",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>My name is Koen, I am a frontend developer based in Amsterdam, passionate about building innovative and efficient web solutions. While I want to continue growing in frontend in the short term, I would also like to grow into a fullstack role in the long term. I am detail-oriented, enjoy getting things ‘right’ the first time, and love learning about new technologies.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "z1ihzfox0qqajlxczl8iunxd",
+          "visible": true,
+          "institution": "Amsterdam Univestiy of Applied Sciences",
+          "studyType": "",
+          "area": "Technical Computer Science",
+          "score": "",
+          "date": "2021-2022",
+          "summary": "<p>Graduated from university. </p>",
+          "url": {
+            "label": "",
+            "href": "https://hva.nl"
+          }
+        },
+        {
+          "id": "sqpd1gerzcukfirtzzo1puqj",
+          "visible": true,
+          "institution": "Instituut voor Audio- en Belichtingstechniek",
+          "studyType": "",
+          "area": "Audio Engineering",
+          "score": "",
+          "date": "2020-2021",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": "https://iabopleidingen.nl"
+          }
+        },
+        {
+          "id": "h969brbzxknfxt3fbceruznl",
+          "visible": true,
+          "institution": "Amsterdam Univestiy of Applied Sciences",
+          "studyType": "",
+          "area": "Technical Computer Science ",
+          "score": "",
+          "date": "2012-2016",
+          "summary": "<p>Computer science with a focus on embedded software development</p>",
+          "url": {
+            "label": "",
+            "href": "https://hva.nl"
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "idvoxkb723w5nwtg795093ir",
+          "visible": true,
+          "company": "SchouteICT.nl",
+          "position": "Founder",
+          "location": "Amsterdam",
+          "date": "October 2025 - present",
+          "summary": "<p>Setting up a company to level up my skills and to do freelance work. Currently involved in building a webapp for movie production purposes. </p>",
+          "url": {
+            "label": "",
+            "href": "https://schouteict.nl"
+          }
+        },
+        {
+          "id": "jytms60lbxohb3q32hi8cur5",
+          "visible": false,
+          "company": "OpenContinuity",
+          "position": "Solo Developer",
+          "location": "Amsterdam",
+          "date": "March 2025 - Present",
+          "summary": "<p>Personal project building a FOSS WebApp for monitoring continuity on a movie set.</p><p>Technologies involved: PWA, RxDB, React, Vite</p>",
+          "url": {
+            "label": "",
+            "href": "https://github.com/gorgabal/OpenContinuity"
+          }
+        },
+        {
+          "id": "vrazl5rbuy0dulkx73e7qv5x",
+          "visible": true,
+          "company": "Synetic",
+          "position": "Web Developer",
+          "location": "Haarem",
+          "date": "Augustus 2022 - Februari 2025",
+          "summary": "<p>Web development within an agency that focuses on enterprise customers. Gained experience in Drupal, Twig, Tailwind, and Vue.js. I also protected our ISO 27001 certification. I learned to work in a dynamic environment with frequently shifting priorities.</p>",
+          "url": {
+            "label": "",
+            "href": "https://synetic.nl/"
+          }
+        },
+        {
+          "id": "m62p490yt4ut1ch4yi3bmeio",
+          "visible": true,
+          "company": "Synetic",
+          "position": "Graduation Internship",
+          "location": "Haarem",
+          "date": "Februari 2022 - Augustus 2022",
+          "summary": "<p>I conducted research to determine if the Web Components standard could be used to create a framework-independent library of standard components for multiple customers.</p>",
+          "url": {
+            "label": "",
+            "href": "https://synetic.nl/"
+          }
+        },
+        {
+          "id": "eec7ud5606xrdtd1ypw3uamn",
+          "visible": true,
+          "company": "eVerbinding",
+          "position": "Junior C# Development",
+          "location": "Woerden",
+          "date": "March 2020 - September 2020",
+          "summary": "<p>C# Backend development for automated invoicing and administration</p>",
+          "url": {
+            "label": "",
+            "href": "https://everbinding.nl"
+          }
+        },
+        {
+          "id": "o8trvgtax00iukcie8ly2v8c",
+          "visible": true,
+          "company": "Kroot",
+          "position": "Web Development",
+          "location": "Utrecht",
+          "date": "September 2019 - Februari 2020",
+          "summary": "<p>Vue.js web application development within a startup.</p><p>Technology involved: HTML, CSS, JavaScript, Vue.js</p>",
+          "url": {
+            "label": "",
+            "href": "https://kroot.dev/"
+          }
+        },
+        {
+          "id": "d2w6bdv11my8a0oprw89r96u",
+          "visible": true,
+          "company": "EY",
+          "position": "Software Developer",
+          "location": "Amsterdam",
+          "date": "December 2017 - Augustus 2019",
+          "summary": "<p>Gained experience as a software developer in a corporate culture. My focus was on use-case specific modifications to our internal workflow management product.<br>Technology involved: C#, ASP.NET(MVC), HTML, JavaScript, T-SQL</p>",
+          "url": {
+            "label": "",
+            "href": "https://ey.com"
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": [
+        {
+          "id": "iysc8wig80u2wjfyv55mev05",
+          "visible": true,
+          "organization": "Particolarte",
+          "position": "Website maintenance",
+          "location": "Amsterdam",
+          "date": "Juli 2014 - Juli 2025",
+          "summary": "<p>WordPress website maintenance</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.particolarte.nl/"
+          }
+        },
+        {
+          "id": "ram0iuco7w4geqviih91yvl5",
+          "visible": true,
+          "organization": "Beelease",
+          "position": "Website maintenance",
+          "location": "Amsterdam",
+          "date": "October 2017 - December 2017",
+          "summary": "<p>WordPress website maintenance</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.beelease.nl/"
+          }
+        }
+      ]
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": [
+        {
+          "id": "hnmffkw0mmy7f4iu0uw4bk16",
+          "visible": true,
+          "name": "Free and open source software",
+          "keywords": []
+        },
+        {
+          "id": "rk8ezgvquit50z0j8yyz84a3",
+          "visible": true,
+          "name": "Linux",
+          "keywords": []
+        }
+      ]
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "rbx87zfm54e0wb5i0a3i50k3",
+          "visible": true,
+          "name": "Dutch",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "l1tnhagtem9f2zbydt6nqfet",
+          "visible": true,
+          "name": "English",
+          "description": "",
+          "level": 4
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "qe9kcfq02b3urq40tr3eeglp",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "koen.schoute",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/koenschoute/"
+          }
+        },
+        {
+          "id": "gdq1umg0zofngrrz5rvmvip4",
+          "visible": true,
+          "network": "GitHub",
+          "username": "gorgabal",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/gorgabal/"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "kznjl0jgzeuhlp9gyzt1md49",
+          "visible": false,
+          "name": "ClothingLoop",
+          "description": "",
+          "date": "May 2025 - present",
+          "summary": "<p>Individual open source contributor to ClothingLoop. In order to maintain my skills, I started contributing to the open source software behind ClothingLoop. This included both frontend and backend. </p><p>Technologies involved: ReactJS, Go, Tailwind CSS</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://www.clothingloop.org/"
+          }
+        },
+        {
+          "id": "ndy58trc4ze72z16r0t4aggz",
+          "visible": true,
+          "name": "OpenContinuity",
+          "description": "",
+          "date": "March 2025 - present",
+          "summary": "<p>Founded a free and open source webapp for monitoring continuity on a movie set. I am the sole developer, doing both the frontend and the backend.</p><p>Technologies involved: PWA, RxDB, React, Vite</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/gorgabal/OpenContinuity/"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "z6qzg3myksfe87x6whbvu000",
+          "visible": true,
+          "name": "CSS",
+          "description": "",
+          "level": 4,
+          "keywords": []
+        },
+        {
+          "id": "a7naok63oo7ko02tpaacms8p",
+          "visible": true,
+          "name": "HTML",
+          "description": "",
+          "level": 4,
+          "keywords": []
+        },
+        {
+          "id": "oqc9knuir9y5z38yw7kq44rm",
+          "visible": true,
+          "name": "Twig",
+          "description": "",
+          "level": 4,
+          "keywords": []
+        },
+        {
+          "id": "adlc3j9kwohdhl99w2xzc91j",
+          "visible": true,
+          "name": "Drupal",
+          "description": "",
+          "level": 4,
+          "keywords": []
+        },
+        {
+          "id": "rtfampbdki1tscc6hq1fbtc0",
+          "visible": true,
+          "name": "Javascript",
+          "description": "",
+          "level": 3,
+          "keywords": []
+        },
+        {
+          "id": "ofpzzginx8s77oqfuudywjao",
+          "visible": true,
+          "name": "ReactJS",
+          "description": "",
+          "level": 3,
+          "keywords": []
+        },
+        {
+          "id": "yu9hr8u5teu5adsgnp96al92",
+          "visible": true,
+          "name": "Vue.js",
+          "description": "",
+          "level": 3,
+          "keywords": []
+        },
+        {
+          "id": "b9cc60fgxvkyfmwohz88cuuq",
+          "visible": true,
+          "name": "Figma",
+          "description": "",
+          "level": 3,
+          "keywords": []
+        },
+        {
+          "id": "d3xajqd0fw8u6c5x8zrerv8y",
+          "visible": true,
+          "name": "Linux",
+          "description": "",
+          "level": 4,
+          "keywords": []
+        },
+        {
+          "id": "eghv9sdr9813zjv7fkvy3uyq",
+          "visible": true,
+          "name": "C#",
+          "description": "",
+          "level": 2,
+          "keywords": []
+        },
+        {
+          "id": "zo3ycsesmvm139aoo02obrn1",
+          "visible": true,
+          "name": "Android Development",
+          "description": "",
+          "level": 2,
+          "keywords": []
+        },
+        {
+          "id": "x6y98lsf1sf8yc1m71s9td9i",
+          "visible": true,
+          "name": "Embedded Development",
+          "description": "",
+          "level": 2,
+          "keywords": []
+        }
+      ]
+    },
+    "custom": {}
+  }
+}
